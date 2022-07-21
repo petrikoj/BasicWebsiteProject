@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7FBFC;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #B9D7EA;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.navbar-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 12vh;
+}
+
+.navbar-list > a {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-size: large;
+    letter-spacing: 0.1em;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}
+
+h1 {
+    font-family: "Faster One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8rem;
+    line-height: normal;
+
+    color: #769FCD;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 0;
+}
+
+h2 {
+    width: 450px;
+    height: 50px;
+    left: 535px;
+    top: 517px;
+
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 50px;
+    text-align: right;
+
+    margin-top: 0;
+}
+
+.usp-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    line-height: 3.5vh;
+    word-spacing: 0.15em;
+    
+}
+
+footer {
+    display: flex;
+    background-color: #B9D7EA;
+    height: 15vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-size: large;
+    letter-spacing: 0.1em;
+    position: sticky;
+}
+
+/* Contact Page Specifics */
+
+header {
+    height: 12vh;
+    background-color: #B9D7EA;
+    position: fixed;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-bottom: 20vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+.contact-headline, .shop-headline, .coffeesub-headline {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15vh;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jost", Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+.contact-container {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20vh;
+    gap: 3vw;
+}
+
+.hours-list {
+    list-style: none;
+    line-height: 6vh;
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-size: larger;
+    word-spacing: 0.1em;
+}
+
+.hours-list > li:first-child {
+    font-weight: bold;
+}
+
+.hours-list > li:nth-child(5) {
+    font-weight: 100;
+    letter-spacing: 0.2em;
+}
+
+.hours-list>li:nth-child(6) {
+    font-weight: 100;
+    letter-spacing: 0.2em;
+}
+
+
+/* Shop Page Specifics */
+
+table {
+    display: table;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    line-height: 3em;
+    border-collapse: collapse;
+    border: 0.05em solid black;
+    margin-bottom: 20vh;
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: left;
+
+}
+
+thead {
+    font-size: x-large;
+}
+
+tbody {
+    font-size: larger;
+}
+
+th, td {
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+}
+
+tr {
+    border-bottom: 0.05em solid black;
+}
+
+tr:hover {
+    background-color: #B9D7EA;
+}
+
+/* COFFEE SUBSCRIPTION PAGE (GRID) */
+
+.grid-forms-container {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-areas: "beans time"
+    "personal-information payment-options"
+    ". submit";
+    justify-content: center;
+    align-items: center baseline;
+    margin-top: 3em;
+    margin-bottom: 20vh;
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    letter-spacing: 0.02em;
+    line-height: 1.25em;
+}
+
+.grid-forms-container p {
+    font-weight: bold;
+}
+
+.choice-of-beans {
+    grid-template-areas: beans;
+    padding: 8%;
+}
+
+.choice-of-time {
+    grid-template-areas: time;
+    padding: 8%;
+}
+
+.personal-information {
+    grid-template-areas: personal-information;
+    padding: 8%;
+}
+
+#country {
+    width: 170.333px;
+    height: 20px;
+}
+
+.payment-options {
+    grid-template-areas: payment-options;
+    padding: 8%;
+}
+
+.submit-button {
+    grid-template-areas: submit;
+    padding: 8%;
+    padding-top: 8vh;
+}
+input[type=submit] {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 4px;
+    width: 80px;
+    height: 25px;
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.15em;
+    text-align: center;
+    background: #B9D7EA;}
+
+/* terms & conditions */
+
+.terms-conditions {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    overflow: auto;
+    font-family: "Familjen Grotesk", Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    line-height: 2em;
+}
+ol {
+    margin:0px 0;
+    padding:0;
+    list-style: decimal inside none;
+}
+
+ol li 
+{
+    margin: 0px;
+    padding: 0px;
+    text-indent: -2.2em;
+    margin-left: 3.4em;
+}
+
+/* ADDING SOME RESPONSIVENESS */
+
+@media only screen and (max-width:640px) {
+    .grid-forms-container {
+        grid-template-areas: "beans""time""personal-information""payment-options""submit";
+        text-align: left;
+    }
+
+    header {
+        font-size: medium;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+    }
+
+    .usp-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .usp-container > p {
+        margin-bottom: 10vh;
+    }
+
+    .hours-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+/* DROPDOWN MENU BUTTON (JS) */
+
+.dropbtn {
+    background-color: #B9D7EA;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.dropdown {
+       position: relative;
+       display: inline-block;
+   }
+
+.dropdown-content {
+             display: none;
+             position: absolute;
+             background-color:#F7FBFC;
+             min-width: 160px;
+             overflow: auto;
+             border: 1px solid black;
+             border-radius: 3%;
+             box-shadow: 2px 5px;
+         }
+    
+.dropdown-content a {
+             color: black;
+             padding: 12px 16px;
+             text-decoration: none;
+             display: block;
+             font-size: large;
+             font-weight: 100;
+             font-family: "Familjen Grotesk", Helvetica, sans-serif;
+             letter-spacing: 0.15em;
+         }
+    
+.dropdown-content a:hover {
+             background-color: #f1f1f1
+         }
+    
+.show {
+             display: block;
+         }
