@@ -15,7 +15,7 @@ nav {
     height: 12vh;
     align-items: center;
     justify-content: space-evenly;
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -62,8 +62,14 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 25vh;
+    margin-top: 20vh;
     margin-bottom: 25vh;
+
+}
+
+.banner-logo {
+    width: 60vw;
+    height: 60vh;
 }
 
 h1 {
@@ -333,6 +339,16 @@ ol li
     header {
         font-size: medium;
 
+    }
+
+    .banner {
+        margin-top: 10vh;
+        margin-bottom: 20vh;
+    }
+
+    .banner-logo {
+        width: 75%;
+        height: auto;
     }
 
     footer {
