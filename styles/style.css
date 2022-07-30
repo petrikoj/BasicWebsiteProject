@@ -9,43 +9,39 @@ body {
 
 nav {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     background-color: #B9D7EA;
     height: 12vh;
     align-items: center;
     justify-content: space-evenly;
-    position: fixed;
     top: 0;
     right: 0;
     left: 0;
 }
 
 
-.navbar-list {
+.navbar-container {
     display: flex;
-    list-style-type: none;
     margin: 0;
     padding: 0;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     color: black;
-    position: fixed;
     left: 0;
     top: 0;
     right: 0;
     height: 12vh;
 }
 
-.navbar-list > a {
+.nav-link {
     margin-left: 5vw;
     margin-right: 5vw;
     font-family: "Familjen Grotesk", Helvetica, sans-serif;
     font-size: large;
+    font-weight:400;
     letter-spacing: 0.1em;
+    text-decoration: none;
 }
-
 
 a {
     color: inherit;
@@ -347,7 +343,7 @@ ol li
     }
 
     .banner-logo {
-        width: 75%;
+        width: 85%;
         height: auto;
     }
 
@@ -363,6 +359,7 @@ ol li
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        margin-top: 10vh;
     }
 
     .usp-container > p {
@@ -378,7 +375,7 @@ ol li
     }
 }
 
-/* DROPDOWN MENU BUTTON (JS) */
+/* DROPDOWN MENU BUTTON (JS)
 
 .dropbtn {
     background-color: #B9D7EA;
@@ -420,4 +417,6 @@ ol li
     
 .show {
              display: block;
-         }
+         } 
+         
+*/

@@ -23,13 +23,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <!-- NAVBAR -->
-    <nav class="navbar">
-      <span class="navbar-list">
-        <a href="./pages/shop.html">shop</a>
-        <a href="./pages/coffeesub.html">coffee sub</a>
-        <a href="./pages/contact.html">contact</a>
-      </span>
+    <!-- BOOTSTRAP 5 NAVBAR -->
+    <nav
+      class="navbar navbar-expand-sm navbar-light sticky-top justify-content-evenly"
+    >
+      <div class="navbar-container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/shop.html">shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/coffeesub.html">coffee sub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- END OF NAVBAR -->
     <!-- BANNER SECTION -->
@@ -160,7 +180,5 @@
       <a href="./pages/termsnconditions.html">terms & conditions</a>
     </footer>
     <!-- END OF FOOTER -->
-    <!-- ADDING SOME JS FOR THE DROPDOWN MENU -->
-    <script src="/script.js" defer></script>
   </body>
 </html>
