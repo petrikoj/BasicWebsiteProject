@@ -19,7 +19,7 @@ nav {
 }
 
 
-.navbar-container {
+/*.container-fluid {
     display: flex;
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ nav {
     top: 0;
     right: 0;
     height: 12vh;
-}
+} */
 
 .nav-link {
     margin-left: 5vw;
@@ -58,7 +58,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 25vh;
 
 }
