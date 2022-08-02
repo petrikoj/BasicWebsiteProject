@@ -58,14 +58,14 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 25vh;
 
 }
 
 .banner-logo {
     width: 60vw;
-    height: 60vh;
+    height: auto;
 }
 
 h1 {
@@ -338,12 +338,12 @@ ol li
     }
 
     .banner {
-        margin-top: 10vh;
+        margin-top: 20vh;
         margin-bottom: 20vh;
     }
 
     .banner-logo {
-        width: 85%;
+        width: 100%;
         height: auto;
     }
 
@@ -374,49 +374,3 @@ ol li
         flex-wrap: wrap;
     }
 }
-
-/* DROPDOWN MENU BUTTON (JS)
-
-.dropbtn {
-    background-color: #B9D7EA;
-    border: none;
-    cursor: pointer;
-    font-size: medium;
-}
-
-.dropdown {
-       position: relative;
-       display: inline-block;
-   }
-
-.dropdown-content {
-             display: none;
-             position: absolute;
-             background-color:#F7FBFC;
-             min-width: 160px;
-             overflow: auto;
-             border: 1px solid black;
-             border-radius: 3%;
-             box-shadow: 2px 5px;
-         }
-    
-.dropdown-content a {
-             color: black;
-             padding: 12px 16px;
-             text-decoration: none;
-             display: block;
-             font-size: large;
-             font-weight: 100;
-             font-family: "Familjen Grotesk", Helvetica, sans-serif;
-             letter-spacing: 0.15em;
-         }
-    
-.dropdown-content a:hover {
-             background-color: #f1f1f1
-         }
-    
-.show {
-             display: block;
-         } 
-         
-*/
